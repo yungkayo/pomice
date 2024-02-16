@@ -34,6 +34,7 @@ class SearchType(Enum):
     ytsearch = "ytsearch"
     ytmsearch = "ytmsearch"
     scsearch = "scsearch"
+    dzsearch = "dzsearch"
 
     def __str__(self) -> str:
         return self.value
@@ -63,7 +64,8 @@ class TrackType(Enum):
     APPLE_MUSIC = "apple_music"
     HTTP = "http"
     LOCAL = "local"
-
+    deezer = "deezer"
+    
     def __str__(self) -> str:
         return self.value
 
@@ -86,6 +88,7 @@ class PlaylistType(Enum):
     SOUNDCLOUD = "soundcloud"
     SPOTIFY = "spotify"
     APPLE_MUSIC = "apple_music"
+    deezer = "deezer"
 
     def __str__(self) -> str:
         return self.value
